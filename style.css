@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.intro{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(bg2.jpeg) no-repeat 50% 50%;
+	display: table;
+	top: 0;
+	background-size: cover; 
+}
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    max-width: 600%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 28%;
+}
+.content h3{
+    font-family: "Yantramanav", sans-sarif;
+    font-size: 250%;
+    font-weight: 100%;
+    color: #E1EFE9;
+    line-height: 50%;
+    padding-bottom: 40px;
+}
+.content h1{
+    font-family: "Yantramanav", sans-sarif;
+    font-size: 600%;
+    font-weight: 100%;
+    color: #E1EFE9;
+    line-height: 70%;
+    padding-top: 30px;
+}
+
+.btn{
+    font-family: "Montserrat" ,sans-sarif;
+    font-size: 135%;
+    font-weight: 400;
+    color: #adccd1;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid #adccd1;
+    padding: 10px 20px;
+    border-radius: 9px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    color: #3A6168;
+    border: solid #3A6168 2px;
+}
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+	.content{
+		padding-bottom: 30%;
+	}
+	.content h1{
+		font-size: 450%;
+	}
+	.content h3{
+		font-size: 200%;
+	}
+	.btn{
+		font-size: 110%;
+		padding: 9px 17px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.content{
+		padding-bottom: 40%;
+	}
+	.content h1{
+		font-size: 300%;
+	}
+		.content h3{
+		font-size: 130%;
+	}
+	.btn{
+		font-size: 100%;
+		padding: 8px 16px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.content{
+		padding-bottom: 50%;
+	}
+	.content h1{
+		font-size: 250%;
+	}
+		.content h3{
+		font-size: 130%;
+	}
+	.btn{
+		font-size: 90%;
+		padding: 6px 14px;
+	}
+}
+@media screen and (max-width: 360px) {
+	.content{
+		padding-bottom: 60%;
+	}
+	.content h1{
+		font-size: 200%;
+	}
+		.content h3{
+		font-size: 60%;
+	}
+	.btn{
+		font-size: 110%;
+		padding: 4px 10px;
+	}
+}
