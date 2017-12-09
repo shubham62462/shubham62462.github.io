@@ -73,8 +73,8 @@ html,body{
 	background-color: #2e2e1f;
 }
 .box{
-width: 400px;
-height: 400px;
+width: 30%;
+height: 80%;
 background:rgba(0,0,0,0.3);
 padding:50px;
 color: white;
@@ -126,17 +126,18 @@ p{
 .quote{
 	width: 350px;
 	height: 500px;
-	margin: auto;
+	margin: 0 auto;
+	padding: 0;
 	display: table;
 	top: 0;
 	color: black;
-	padding-top: 40px;
+	padding-top: 70px;
 	padding-left: 10px;
     font-family: "Montserrat" ,sans-sarif;
     font-size: 135%;
     font-weight: 135%;
     color: #262626;
-    text-align: center;
+    text-align: justify;
 }
 .active {
     background-color: #333333;
@@ -151,48 +152,117 @@ p{
 	height: 25%;
 }
 .Rest{
-	height: 20%;
+	height: 19%;
 }
 .project ul li h2{
+	font-size: 40px;
     font-family: "Montserrat" ,sans-sarif;
     color: #e0ebeb;
 }
+.project ul li p{
+	font-size: 25px;
+    font-family: "Yantramanav" ,sans-sarif;
+    color: #e0ebeb;
+}
 .project ul li a{
-    font-family: "Yantramanav", sans-sarif;
+    font-family: "Montserrat", sans-sarif;
     text-decoration: none;
     text-transform: uppercase;
 	font-size: 100%;
     font-weight: bolder;
-    color: #669999;
+    color: #e51304;
+    border: solid #e51304;
+    border-radius: 9px;
+     padding: 4px 8px;
+
+
+
 }
 .project ul li a:hover{
-	color:#d1e0e0;
+	color:#280301;
 	transition: 0.5s;
+
 }
 
 
 /*--- Media Queries --*/
 
-@media screen and (max-width: 1024px) {
+
+
+@media screen and (max-width:1000px){
 	.headr ul li{
-		width: 24.5%;
-		font-size: 120%;
-	
-}
-}
-@media screen and (max-width: 768px) {
-	
-}
-@media screen and (max-width: 680px) {
-	.headr ul li{
-		width: 24.5%;
+		width: 24.6%;	
+	}
+	.headr ul li a{
 		font-size: 100%;
 	}
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 505px){
 	.headr ul li{
-		width: %;
-		font-size: 100%;
-	
+		width: 24.4%;
+		line-height: 200%;	
+	}
+	.headr ul li a{
+		font-size: 80%;
+	}
+	.box{
+		width: 35%;
+		height: 75%;
+	}
+	.face{
+		height: 115px;
+		width: 115px;
+	}
+	.box h1{
+		font-size: 30px;
+	}
+	.box h4{
+		font-size: 12px;
+	}
+	.box p{
+		font-size: 10px;
+	}
+	.social{
+		font-size: 23px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	.headr ul li{
+		width: 24.3%;	
+		line-height: 220%;	
+
+	}
+	.headr ul li a{
+		font-size: 80%;
+	}
+	.box{
+		width: 35%;
+		height: 75%;
+	}
+	.face{
+		height: 115px;
+		width: 115px;
+	}
+	.box h1{
+		font-size: 30px;
+	}
+	.box h4{
+		font-size: 12px;
+	}
+	.box p{
+		font-size: 10px;
+	}
+	.social{
+		font-size: 23px;
+	}
+	.project ul li p{
+		font-size: 130%;
+	}
+	.quote{
+		width: 200px;
+		font-size: 80%;
+		word-spacing: -2px;
+	}
 }
