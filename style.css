@@ -9,9 +9,9 @@ html,body{
 }
 .intro{
 	height: 100%;
-	width: 100%;
 	margin: auto;
-	background: url(bg2.jpeg) no-repeat 50% 50%;
+	background: url(index.jpeg) no-repeat 50% 50%;
+	width: 100%;
 	display: table;
 	top: 0;
 	background-size: cover; 
