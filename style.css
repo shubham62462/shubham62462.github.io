@@ -109,15 +109,7 @@ html,body{
 	}
 }
 @media screen and (max-width: 360px) {
-	.intro{
-		height: 100%;
-	margin: auto;
-	background: url(indexSmall.jpeg) no-repeat 50% 50%;
-	width: 100%;
-	display: table;
-	top: 0;
-	background-size: cover; 
-	}
+
 	.content{
 		padding-bottom: 60%;
 	}
