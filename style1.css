@@ -8,13 +8,14 @@ html,body{
 	width: 100%;
 }
 .whole1{
-	height: 100%;
-	width: 100%;
+
 	margin: auto;
 	background: url(cup.jpeg) no-repeat 50% 50%;
 	display: table;
 	top: 0;
-	background-size: cover; 
+	background-size: cover;
+		height: 100%;
+	width: 100%; 
 	color: white;
 }
 .whole5{
@@ -36,6 +37,7 @@ html,body{
 	top: 0;
 	background-size: cover; 
 	color: white;
+	background-attachment: fixed;
 }
 
 .whole4{
@@ -142,7 +144,7 @@ p{
 .active {
     background-color: #333333;
 }
-.project ul{
+.project {
 	list-style: none;
 	margin: 5px;
 	padding: 0;
@@ -154,17 +156,18 @@ p{
 .Rest{
 	height: 19%;
 }
-.project ul li h2{
-	font-size: 40px;
+.project  h2{
+	font-size: 300%;
     font-family: "Montserrat" ,sans-sarif;
-    color: #e0ebeb;
+    color: #262626;
 }
-.project ul li p{
-	font-size: 25px;
+.project  p{
+	font-size: 150%;
+
     font-family: "Yantramanav" ,sans-sarif;
-    color: #e0ebeb;
+    color: #262626;
 }
-.project ul li a{
+.project  a{
     font-family: "Montserrat", sans-sarif;
     text-decoration: none;
     text-transform: uppercase;
@@ -172,8 +175,9 @@ p{
     font-weight: bolder;
     color: #e51304;
     border: solid #e51304;
-    border-radius: 9px;
-     padding: 4px 8px;
+    border-radius: 5px;
+     padding: 2px 4px;
+     border-width: thin;
 
 
 
@@ -259,6 +263,9 @@ p{
 	}
 	.project ul li p{
 		font-size: 130%;
+	}
+	.project{
+		margin: 0px;
 	}
 	.quote{
 		width: 200px;
