@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Yantramanav:100');@import url('https://fonts.googleapis.com/css?family=Montserrat:400');html,body{margin:0;padding:0;height:100%;width:100%;}
 .whole1{margin:auto;background:url(cup.jpg) no-repeat 50% 50%;display:table;top:0;background-size:cover;height:100%;width:100%;color:white;}
-.whole5{height:100%;width:100%;margin:auto;background:url(contact.jpeg) no-repeat 50% 50%;display:table;top:0;background-size:cover;color:white;}
+.whole5{height:100%;width:100%;margin:auto;background:url(contact.jpg) no-repeat 50% 50%;display:table;top:0;background-size:cover;color:white;}
 .whole3{height:100%;width:100%;margin:auto;background:url(projects.jpg) no-repeat 50% 50%;display:table;top:0;background-size:cover;color:white;background-attachment:fixed;}
 .whole4{height:100%;width:100%;margin:auto;background:url(abt.jpg) no-repeat 50% 50%;display:table;top:0;background-size:cover;color:white;}
 .headr ul{margin:2px;padding:2px;list-style:none;}
