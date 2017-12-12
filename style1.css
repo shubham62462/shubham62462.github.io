@@ -22,8 +22,8 @@ p{font-weight:200;letter-spacing:1;}
 .quote{width:350px;height:500px;margin:0 auto;padding:0;display:table;top:0;color:black;padding-top:70px;padding-left:10px;font-family:"Montserrat" ,sans-sarif;font-size:135%;font-weight:135%;color:#262626;text-align:justify;}
 .active{background-color:#333333;}
 .project{list-style:none;margin:5px;padding:0;}
-.Gesture{height:25%;}
-.Rest{height:19%;}
+.Gesture{height:25%;margin: 2px;}
+.Rest{height:19%;margin: 2px}
 .project h2{font-size:300%;font-family:"Montserrat" ,sans-sarif;color:#262626;}
 .project p{font-size:150%;font-family:"Yantramanav" ,sans-sarif;color:#262626;}
 .project a{font-family:"Montserrat", sans-sarif;text-decoration:none;text-transform:uppercase;font-size:100%;font-weight:bolder;color:#e51304;border:solid #e51304;border-radius:5px;padding:2px 4px;border-width:thin;}
@@ -49,6 +49,5 @@ p{font-weight:200;letter-spacing:1;}
 .box p{font-size:10px;}
 .social{font-size:23px;}
 .project ul li p{font-size:130%;}
-.project{margin:0px;}
 .quote{width:200px;font-size:80%;word-spacing:-2px;}
 }
