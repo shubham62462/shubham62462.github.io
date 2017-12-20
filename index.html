@@ -14,36 +14,37 @@
 	<script src="js/waypoints.js" type="text/javascript"></script>
 	<script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
 </head>
-<body>
+<body onload="myFunction()" style="margin:0;">
+	<div id="loader"></div>
+	<div style="display:none;" id="myDiv" class="animate-bottom">
+		<section class="intro">
 
-	<section class="intro">
-
-		<div class="inner">
-			<div class="content">
-				<section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0s">
-					<h1>Shubham Dey</h1>
-				<section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0s">
-					<h3>Software+Web Developer</h3>
-				</section>
-				<section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0.3s">
-					<a href="home.html" class="btn">About Me</a>
-				</section>
+			<div class="inner">
+				<div class="content">
+					<section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0.5s">
+						<h1>Shubham Dey</h1>
+					<section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0.5s">
+						<h3>Software+Web Developer</h3>
+					</section>
+					<section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0.8s">
+						<a href="home.html" class="btn">About Me</a>
+					</section>
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	</div>
 	
-<script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
 <script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAOEJ4g2UNK0p4R_peDfamGQFEhlsQTPPs",
-    authDomain: "adept-amp-188806.firebaseapp.com",
-    databaseURL: "https://adept-amp-188806.firebaseio.com",
-    projectId: "adept-amp-188806",
-    storageBucket: "adept-amp-188806.appspot.com",
-    messagingSenderId: "819935815419"
-  };
-  firebase.initializeApp(config);
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
 </script>
 
 </body>
